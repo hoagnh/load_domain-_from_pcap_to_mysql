@@ -3,7 +3,7 @@
 tên domain xuất hiện ở QUIC và TLS nên trích từ 2 cái đấy, TLS thì dễ rồi nhưng QUIC thì domain nó ko nằm ở ngay phần info (SNI=...) như TLS nên mới khoai tí, mãi mới ấy được:'
 
 ý tưởng là dùng tshark đọc file pcap, trích các tên miền từ QUIC và TLS, lưu vào dataset, xong rồi từ dataset ném vào database (đang dùng mysql)
-
+(thử test file pcap 1gb mất ~18s)
 
 1. file txt để ghi những domain có ích (domain giữ lại, để loại bỏ các domain rác, quảng cáo, domain của google trong quá trình cature wireshark)
 2. file py, nhập input là file txt, file pcap, tên database, tên table
