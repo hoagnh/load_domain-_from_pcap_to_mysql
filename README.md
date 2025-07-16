@@ -1,4 +1,4 @@
-# load_domain-_from_pcap_to_mysql
+# load_domain_from_pcap_to_mysql
 
 tên domain xuất hiện ở QUIC và TLS nên trích từ 2 cái đấy, TLS thì dễ rồi nhưng QUIC thì domain nó ko nằm ở ngay phần info (SNI=...) như TLS nên mới khoai tí, mãi mới ấy được:'
 
