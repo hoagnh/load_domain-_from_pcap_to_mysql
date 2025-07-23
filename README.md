@@ -22,3 +22,6 @@ CREATE TABLE logs3 (
     length INT,
     domain VARCHAR(255)
 );
+
+# 23/07/2025, nguon cac domain bao tu wiki: https://vi.wikipedia.org/wiki/Danh_s%C3%A1ch_b%C3%A1o_%C4%91i%E1%BB%87n_t%E1%BB%AD_ti%E1%BA%BFng_Vi%E1%BB%87t
+con may cai domain bank nua nhung luoi bo ra nen cu de trong file txt
